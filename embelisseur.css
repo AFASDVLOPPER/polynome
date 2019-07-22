@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 mars 2019, 15:55:22
+    Author     : fouad
+*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+label
+{
+  display:block;
+  width:200px;
+  float:left;
+  font-size: 20px;
+}
+
+input,select
+{
+    float: left; 
+    width: 200px;
+    height:  25px;
+   
+}
+
+#field
+{
+    position: relative;
+    box-shadow: 10px 10px red;
+    border-color: black;
+    border : solid black;
+    border-radius: 10px;
+    background : linear-gradient(to right,lightskyblue,skyblue);
+    opacity: 0.8;
+    width: 40%;
+    /*background : radial-gradient(ellipse at center, LightBlue, blue ); */
+}
+
+#err
+{
+    color: red;
+    float: left;
+    font-size: medium; 
+}
+
+table
+{
+  background-color: cornflowerblue;
+  border: 5px solid black;
+}
+
+tr,td
+{
+   border: 2px solid black; 
+   background-color: brown;
+}
+th
+{
+    background-color : cyan;
+    font-size: larger;
+    
+}
